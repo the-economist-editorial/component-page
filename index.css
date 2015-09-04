@@ -1,9 +1,15 @@
 :root {
   /* Color palette */
-  --ImAmTheFirst: black;
-  --ImAmTheSecond: white;
-  --ImAmTheThird: grey;
-  /* FontSizing */
+  --Economist: #60900;
+  --Beijing: #12;
+  --Moscow: #7A;
+  --London: #B6;
+  --Berlin: #F2;
+  --Thimphu: #FF;
+  --Honolulu: #16C9B3;
+  /* Gutters rem */
+  /* Vertical rithm see calcution and factor */
+  /* FontSizing and vertical rythm will be calculated */
   --xs: 8px;
   --s: 10px;
   --m: 14px;
@@ -22,4 +28,8 @@
 
 body {
     font-family: 'Officina';
+}
+
+ul {
+  list-style: none;
 }
